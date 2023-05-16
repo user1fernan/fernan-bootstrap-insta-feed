@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Insta feed</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <nav class="navbar" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <h3><i class="fa-brands fa-instagram fa-1x"></i>Instagram</h3>
+      <form class="d-flex" role="search">
+
+        <button type="button" class="btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Create a new post
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Caption</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Add the caption of your post here"></textarea>
+                  <button type="button" class="btn btn-ligh btn-outline-secondary m-1"> <i class="fa-solid fa-camera"
+                      style="color: #222325;"></i></button>
+                  <button type="button" class="btn btn-ligh btn-outline-secondary m-1"> <i
+                      class="fa-solid fa-location-dot" style="color: #222325"></i></i></button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle m-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-gear fa-1"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Log out</a></li>
+          </ul>
+        </div>
+  </nav>
+
+  <div class="container-fluid "> <!--in cont2-->
+    <div class="row mx-auto text-center"> <!--in row2-->
+      <div class="col">
+        <a type="button" class="btn" href="cuadrado.html"> <i class="fa-solid fa-table-cells" style="color: #4130c5;"></i> </a>
+    
+        <a type="button" class="btn" href="index.html"> <i class="fa-solid fa-squaregit" style="color: #4130c5;"></i> </a>
+      </div>
+    </div><!--fin row2-->
+  </div><!--fin cont2-->
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
+        <div class="card mx-auto mt-4">
+          <div class="d-flex">
+            <div class="flex-grow-1">
+              <h5 class="card-title mt-2 ml-2 m-3">Breton mujer y ganso por el agua</h5>
+            </div>
+            <div>
+              <p class="text-right mb-0 mr-2 mt-2 m-2">06/08</p>
+            </div>
+          </div>
+          <img src='./img/Gauguin .jpg' class="img-fluid" alt="Painting of Paul Gauguin">
+          <p class="card-text mx-2 my-2 fw-bold">
+            204 Likes
+          </p>
+          <p class="card-text mx-2 my-2">
+            This is an example of a very good picture you can post on Instagram
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
+        <div class="card mx-auto mt-4">
+          <div class="d-flex">
+            <div class="flex-grow-1">
+              <h5 class="card-title mt-2 ml-2 m-3">Agripedium vorax</h5>
+            </div>
+            <div>
+              <p class="text-right mb-0 mr-2 mt-2 m-2">06/08</p>
+            </div>
+          </div>
+          <img src='./img/DorotheaAgr.jpg' class="img-fluid" alt="Painting of Dorothea Tanning">
+          <p class="card-text mx-2 my-2 fw-bold">
+            357 Likes
+          </p>
+          <p class="card-text mx-2 my-2">
+            This is an example of a very good picture you can post on Instagram
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
+        <div class="card mx-auto mt-4">
+          <div class="d-flex">
+            <div class="flex-grow-1">
+              <h5 class="card-title mt-4 ml-4">Le bassin du Jas de Bouffan</h5>
+            </div>
+            <div>
+              <p class="text-right mb-0 mr-4 mt-4">06/08</p>
+            </div>
+          </div>
+          <img src='./img/Cezz.jpg' class="img-fluid" alt="Painting of Paul Cezzane">
+          <p class="card-text mx-2 my-2 fw-bold">
+            204 Likes
+          </p>
+          <p class="card-text mx-2 my-2">
+            This is an example of a very good picture you can post on Instagram
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
